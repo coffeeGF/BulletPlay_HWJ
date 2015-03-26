@@ -1,0 +1,29 @@
+PODS:
+  - ASIHTTPRequest (0.0.1):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/Core
+    - ASIHTTPRequest/S3
+  - ASIHTTPRequest/ASIWebPageRequest (0.0.1):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (0.0.1):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (0.0.1):
+    - Reachability
+  - ASIHTTPRequest/S3 (0.0.1):
+    - ASIHTTPRequest/Core
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - ASIHTTPRequest (from `https://github.com/wenxp/ASIHTTPRequest.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  ASIHTTPRequest:
+    :branch: master
+    :git: https://github.com/wenxp/ASIHTTPRequest.git
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: 689893a24805d09656361814a706676174361250
+  Reachability: 1ef8adf5c4e3d362f96515d4278f68dad3c26930
+
+COCOAPODS: 0.34.4
